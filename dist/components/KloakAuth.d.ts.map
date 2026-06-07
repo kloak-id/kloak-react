@@ -1,0 +1,1 @@
+{"version":3,"file":"KloakAuth.d.ts","sourceRoot":"","sources":["../../src/components/KloakAuth.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAmB,MAAM,OAAO,CAAC;AAIxC,MAAM,WAAW,cAAc;IAC7B,SAAS,CAAC,EAAE,MAAM,CAAC;CACpB;AAED,wBAAgB,SAAS,CAAC,EAAE,SAAS,EAAE,EAAE,cAAc,qBA2EtD"}

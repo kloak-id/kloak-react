@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/recipe/mfa/index.tsx"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,MAAM,EAAE,aAAa,EAAE,YAAY,EAAE,MAAM,uBAAuB,CAAC;AAIjF,MAAM,WAAW,SAAU,SAAQ,YAAY;CAAG;AAkFlD,cAAM,SAAU,YAAW,aAAa,CAAC,SAAS,CAAC;IACjD,IAAI,CAAC,MAAM,CAAC,EAAE,OAAO,CAAC,SAAS,CAAC,GAAG,MAAM;CAO1C;;AAED,wBAA+B"}

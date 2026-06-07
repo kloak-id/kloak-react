@@ -1,0 +1,4 @@
+
+> @kloak.id/react@0.1.0 build /Users/wayne/workspace/kloak/SDKs/frontend/packages/react
+> tsc --project tsconfig.json
+
