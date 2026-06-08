@@ -27,7 +27,7 @@ export interface KloakProviderProps {
 const RecipeContext = createContext<Recipe[]>([]);
 
 export function KloakProvider({ config, recipeList, children }: KloakProviderProps) {
-  const kloak = useMemo(() => new KloakClient(config), [config.baseUrl, config.tenantId]);
+  const kloak = useMemo(() => new KloakClient(config), [config.baseUrl, config.tenantId, config.useCustomDomain]);
   
   const [authState, setAuthState] = useState<ReactAuthState>(() => {
     const state = kloak.getAuthState();

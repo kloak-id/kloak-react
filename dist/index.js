@@ -5,6 +5,7 @@ export * from './components/forms/SignUpForm.js';
 export * from './components/forms/ForgotPasswordForm.js';
 export * from './components/forms/ResetPasswordForm.js';
 export * from './components/forms/OtpForm.js';
+export * from './components/forms/EmailVerificationForm.js';
 export * from './components/KloakAuth.js';
 export { default as EmailPassword } from './recipe/emailpassword/index.js';
 export { default as MFA } from './recipe/mfa/index.js';

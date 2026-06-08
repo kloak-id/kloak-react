@@ -9,7 +9,7 @@ const AuthStateContext = createContext({
 });
 const RecipeContext = createContext([]);
 export function KloakProvider({ config, recipeList, children }) {
-    const kloak = useMemo(() => new KloakClient(config), [config.baseUrl, config.tenantId]);
+    const kloak = useMemo(() => new KloakClient(config), [config.baseUrl, config.tenantId, config.useCustomDomain]);
     const [authState, setAuthState] = useState(() => {
         const state = kloak.getAuthState();
         return {
